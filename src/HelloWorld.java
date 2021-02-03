@@ -13,5 +13,9 @@ public class HelloWorld {
         {
             System.out.println("Then it must be night. Goodnight World!");
         }
+        else
+        {
+            System.out.println("Hello World!");
+        }
     }
 }
