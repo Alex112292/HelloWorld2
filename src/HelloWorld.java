@@ -9,9 +9,9 @@ public class HelloWorld {
         {
             System.out.println("Good morning world!");
         }
-        else
+        else if (answer.equalsIgnoreCase("no"))
         {
-            System.out.println("Hello World!");
+            System.out.println("Then it must be night. Goodnight World!");
         }
     }
 }
